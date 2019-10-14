@@ -3108,4 +3108,33 @@ input, select, textarea {
         display: block;
     font-size: 1.3em;
 }
-}
+
+/* header */
+
+header {
+      margin: 0 0 1.5em 0;
+   }
+
+      header > p {
+         display: block;
+         font-style: italic;
+         margin: 0.5em 0 0 0;
+         padding-bottom: 0.5em;
+      }
+
+      header.major {
+         position: relative;
+         text-align: center;
+         border-top: solid 1px #ccc;
+         top: 1em;
+         margin: 0 0 3em 0;
+      }
+
+         header.major h2 {
+            background: #f7f7f7;
+            position: relative;
+            top: -0.9em;
+            display: inline;
+            margin: 0;
+            padding: 0 1em 0 1em;
+         }
